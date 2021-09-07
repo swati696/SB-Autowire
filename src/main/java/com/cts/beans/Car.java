@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Car {
-	// field level injection
+	// field level injection are used.
 	@Autowired
 	private IEngine eng;
    public void drive()
